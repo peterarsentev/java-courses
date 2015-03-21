@@ -24,8 +24,12 @@ Java. Путь от ученика до эксперта.
 - Работа с базой данных. JDBC.
 - Базовый синтаксис SQL
 - Использование POJO в работе с базами. ORM.
-- Hibernate, Mapping.14. Hibernate, CrUD.15. HQL
-- Spring IoC17. Spring Template + Hibernate18. Spring MVC.
+- Hibernate, Mapping.
+- Hibernate, CrUD. 
+- HQL.
+- Spring IoC
+- Spring Template + Hibernate
+- Spring MVC.
 
 Занятие 1. Вводная
 ------------------
@@ -41,3 +45,5 @@ Java. Путь от ученика до эксперта.
 ---------------
 Занятие 4. Классы. Объекты, Циклы, Условия
 ------------------------------------------
+Занятие 5. Оформление кода
+--------------------------
