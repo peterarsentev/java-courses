@@ -1,8 +1,8 @@
 /**
-   Класс для запуска калькулятор с параметрами.
-*/
+ * РљР»Р°СЃСЃ РґР»СЏ Р·Р°РїСѓСЃРєР° РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё.
+ */
 public class ArgRunner {
-	
+
 	public static void main(String[] arg) {
 		System.out.println("Calculate...");
 		if (arg.length == 2) {

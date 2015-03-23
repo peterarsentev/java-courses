@@ -2,7 +2,7 @@ Java. Путь от ученика до эксперта.
 =================================
 Практический Java курс. Бесплатно.
 ---------------------------------
-Полный видео курс доступен по адресу [ссылка](https://www.youtube.com/watch?v=bJgruyEzhUU&list=PLBV2Q-aWl4DRN4fPyIiDqzXDAPsRUdGVq)
+Полный видео курс доступен по адресу [ссылке](https://www.youtube.com/watch?v=bJgruyEzhUU&list=PLBV2Q-aWl4DRN4fPyIiDqzXDAPsRUdGVq)
 
 Цель курса
 ----------
@@ -33,7 +33,8 @@ Java. Путь от ученика до эксперта.
 
 Занятие 1. Вводная
 ------------------
-[Ссылка](http://www.youtube.com/watch?v=bJgruyEzhUU)
+[Видео](http://www.youtube.com/watch?v=bJgruyEzhUU)
+
 Задания
 - Какой Вы хотите добиться целью изучения языка Java?
 - Как Вы можете проверить что цель достигнута?
@@ -41,9 +42,38 @@ Java. Путь от ученика до эксперта.
 
 Занятие 2. Инструменты разработки
 ---------------------------------
+[Видео](http://www.youtube.com/watch?v=dyZLjUXB6zw)
+
+Задания
 Занятие 3. Типы
 ---------------
+[Видео](http://www.youtube.com/watch?v=nfPka7A9uxk)
+
+[Видео](http://www.youtube.com/watch?v=KuDxdhvx9ZY)
+
+Задания
 Занятие 4. Классы. Объекты, Циклы, Условия
 ------------------------------------------
+[Видео](http://www.youtube.com/watch?v=yNimA3UmFnQ)
+
+Задания
 Занятие 5. Оформление кода
 --------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+Занятие 6. Наследование. Инкапсуляция. Полиморфизм.
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+Занятие 7. Коллекции. List, Set, Map, Tree.
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+Занятие 8. Коллекции. Equals. hashCode
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания

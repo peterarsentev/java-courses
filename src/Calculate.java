@@ -1,8 +1,7 @@
 /**
-	Класс для вычисления суммы двух чисел. Числа беруться из входщего массива.
-*/
+ * РљР»Р°СЃСЃ РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ СЃСѓРјРјС‹ РґРІСѓС… С‡РёСЃРµР». Р§РёСЃР»Р° Р±РµСЂСѓС‚СЊСЃСЏ РёР· РІС…РѕРґС‰РµРіРѕ РјР°СЃСЃРёРІР°.
+ */
 public class Calculate {
-
 	public static void main(String[] arg) {
 		System.out.println("Calculate...");
 		int first = Integer.valueOf(arg[0]);
@@ -10,5 +9,4 @@ public class Calculate {
 		int sum = first + second;
 		System.out.println("Sum : " + sum);
 	}
-
 }
