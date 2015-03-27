@@ -2,7 +2,7 @@ Java. Путь от ученика до эксперта.
 =================================
 Практический Java курс. Бесплатно.
 ---------------------------------
-Полный видео курс доступен по адресу [ссылке](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+Полный видео курс доступен по [ссылке](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Цель курса
 ----------
@@ -43,13 +43,12 @@ Java. Путь от ученика до эксперта.
 Занятие 2. Инструменты разработки
 ---------------------------------
 [Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
-
-JDK 1.7 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
-Maven https://maven.apache.org/download.cgi?Preferred=ftp://mirror.reverse.net/pub/apache/
-Tomcat https://tomcat.apache.org/download-70.cgi
-MsysGit https://msysgit.github.io/
-PostgreSQL http://www.postgresql.org/download/
-IDEA https://www.jetbrains.com/idea/
+- JDK 1.7 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+- Maven https://maven.apache.org/download.cgi?Preferred=ftp://mirror.reverse.net/pub/apache/
+- Tomcat https://tomcat.apache.org/download-70.cgi
+- MsysGit https://msysgit.github.io/
+- PostgreSQL http://www.postgresql.org/download/
+- IDEA https://www.jetbrains.com/idea/
 
 Задания
 - Установить все пакеты на своем компьюере. 
