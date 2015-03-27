@@ -2,7 +2,7 @@ Java. Путь от ученика до эксперта.
 =================================
 Практический Java курс. Бесплатно.
 ---------------------------------
-Полный видео курс доступен по адресу [ссылке](https://www.youtube.com/watch?v=bJgruyEzhUU&list=PLBV2Q-aWl4DRN4fPyIiDqzXDAPsRUdGVq)
+Полный видео курс доступен по адресу [ссылке](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Цель курса
 ----------
@@ -33,7 +33,7 @@ Java. Путь от ученика до эксперта.
 
 Занятие 1. Вводная
 ------------------
-[Видео](http://www.youtube.com/watch?v=bJgruyEzhUU)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 - Какой Вы хотите добиться целью изучения языка Java?
@@ -42,7 +42,7 @@ Java. Путь от ученика до эксперта.
 
 Занятие 2. Инструменты разработки
 ---------------------------------
-[Видео](http://www.youtube.com/watch?v=dyZLjUXB6zw)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 JDK 1.7 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 Maven https://maven.apache.org/download.cgi?Preferred=ftp://mirror.reverse.net/pub/apache/
@@ -58,9 +58,9 @@ IDEA https://www.jetbrains.com/idea/
 
 Занятие 3. Типы
 ---------------
-[Видео](http://www.youtube.com/watch?v=nfPka7A9uxk)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
-[Видео](http://www.youtube.com/watch?v=KuDxdhvx9ZY)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Детальное описание https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
@@ -71,17 +71,17 @@ IDEA https://www.jetbrains.com/idea/
 
 Занятие 4. Классы. Объекты, Циклы, Условия
 ------------------------------------------
-[Видео](http://www.youtube.com/watch?v=yNimA3UmFnQ)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 Занятие 5. Оформление кода
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 Занятие 6. Наследование. Инкапсуляция. Полиморфизм.
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 Занятие 7. Поключение Maven, IDEA, JUnit
@@ -172,13 +172,13 @@ IDEA https://www.jetbrains.com/idea/
 
 Занятие 22. Spring Template, Hibernate
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 
 Занятие 22. Spring MVC
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 
