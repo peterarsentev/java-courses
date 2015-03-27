@@ -44,14 +44,31 @@ Java. Путь от ученика до эксперта.
 ---------------------------------
 [Видео](http://www.youtube.com/watch?v=dyZLjUXB6zw)
 
+JDK 1.7 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+Maven https://maven.apache.org/download.cgi?Preferred=ftp://mirror.reverse.net/pub/apache/
+Tomcat https://tomcat.apache.org/download-70.cgi
+MsysGit https://msysgit.github.io/
+PostgreSQL http://www.postgresql.org/download/
+IDEA https://www.jetbrains.com/idea/
+
 Задания
+- Установить все пакеты на своем компьюере. 
+- Прописать необходимые переменные окружения.
+- Проверить работоспособность каждого элемента из списка.
+
 Занятие 3. Типы
 ---------------
 [Видео](http://www.youtube.com/watch?v=nfPka7A9uxk)
 
 [Видео](http://www.youtube.com/watch?v=KuDxdhvx9ZY)
 
+Детальное описание https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
 Задания
+- Создать класс Calculate.
+- Добавить арифметические вычисления + - * / ^
+- Сделать его адаптивным для типов int, short, long, float, double.
+
 Занятие 4. Классы. Объекты, Циклы, Условия
 ------------------------------------------
 [Видео](http://www.youtube.com/watch?v=yNimA3UmFnQ)
@@ -67,12 +84,105 @@ Java. Путь от ученика до эксперта.
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
-Занятие 7. Коллекции. List, Set, Map, Tree.
+Занятие 7. Поключение Maven, IDEA, JUnit
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
-Занятие 8. Коллекции. Equals. hashCode
+Занятие 8. Исключительные ситуации. Exception, Error
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+Занятие 9. Создание исполняемого файла. Manifest
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+Занятие 10. Коллекции. List, Set, Map, Tree.
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+Занятие 11. Коллекции. Equals. hashCode
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 12. Многопоточность
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 13. Клиент-сервер. Протоколы передачи.
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 14. JSP, Servlet, JTLS
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 15. HTML, CSS, JS
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 16. SQL
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 17. JDBC
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 18. Hibernate, Config
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 19. Hibernate, Mapping
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 20. Hibernate, Query
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 21. Spring, IoC
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 22. Spring Template, Hibernate
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 22. Spring MVC
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Задания
+
+Занятие 23. Spring Security
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 

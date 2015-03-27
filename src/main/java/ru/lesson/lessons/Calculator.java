@@ -1,3 +1,5 @@
+package ru.lesson.lessons;
+
 /**
  * Класс реализует калькулятор.
  */
