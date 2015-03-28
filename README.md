@@ -97,6 +97,15 @@ Java. Путь от ученика до эксперта.
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
+Дополнительная инфармация 
+https://maven.apache.org/plugins/maven-jar-plugin/examples/manifest-customization.html
+https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
+Задания
+- Сделать прогрумму клиники исполняемой. 
+- Добавить файл README.md и описать в нем заначение программы, возможности.
+- Попросить своих друзей попробовать использовать программу.
+- Получить впечатление, отзывы от друзей. Провести работу по исправлению.
+
 Задания
 Занятие 10. Коллекции. List, Set, Map, Tree.
 --------------------------
