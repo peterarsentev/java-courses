@@ -33,7 +33,7 @@ Java. Путь от ученика до эксперта.
 
 Занятие 1. Вводная
 ------------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=3Wn_mc12_yA)
 
 Задания
 - Какой Вы хотите добиться целью изучения языка Java?
@@ -42,7 +42,7 @@ Java. Путь от ученика до эксперта.
 
 Занятие 2. Инструменты разработки
 ---------------------------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=lyezCD0lW88)
 - JDK 1.7 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 - Maven https://maven.apache.org/download.cgi?Preferred=ftp://mirror.reverse.net/pub/apache/
 - Tomcat https://tomcat.apache.org/download-70.cgi
@@ -57,9 +57,9 @@ Java. Путь от ученика до эксперта.
 
 Занятие 3. Типы
 ---------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=gpZTcUBbdUA)
 
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=_UM8_vQZ4Tk)
 
 Детальное описание https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
@@ -70,29 +70,73 @@ Java. Путь от ученика до эксперта.
 
 Занятие 4. Классы. Объекты, Циклы, Условия
 ------------------------------------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=EtBO3V-A-os)
+
+Дополнительная информация
+- http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
+- http://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
 
 Задания
+- Создать класс Calculator.
+- Добавить два класс клиента ArgRunner, InteractRunner. 
+- ArgRunner - данные получает из параметров запуска программы.
+- InteractRunner - данные вводит пользователь.
+- Добавить возможность выборка операции. Валидацию. Повторное использование результат вычисления. 
+
 Занятие 5. Оформление кода
 --------------------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=O_vgImIw-pE)
+
+Детальное описание
+- http://www.oracle.com/technetwork/articles/java/index-137868.html
 
 Задания
+- Проверить весь проект по пунктам из занятия.
+- Поправить нарушения этих правил.
+
 Занятие 6. Наследование. Инкапсуляция. Полиморфизм.
 --------------------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=8jiiWwyHRY4)
+
+Дополнительная информация
+- https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+- https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
 
 Задания
-Занятие 7. Поключение Maven, IDEA, JUnit
+- Создать программу для обслуживания клиники домашних питомцев.
+- Должна быть возможно добавлять клиентов.
+- Указывать какой питомец есть у клиента.
+- Возможность искать по кличке питомца, по имени клиента.
+- Редактировать имя клиента, имя питомца.
+- Удалять клиента, питомца.
+- Возможность валидации.
+
+
+Занятие 7. Подключение Maven, IDEA, JUnit
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
+Дополнительная информация
+- http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+- https://www.jetbrains.com/idea/features/ant_maven.html
+- http://junit.org/
+- http://en.wikipedia.org/wiki/Black-box_testing
+
 Задания
+- Добавить maven для проекта Клиника. Калькулятор.
+- Добавить тесты в эти проекты.
+
 Занятие 8. Исключительные ситуации. Exception, Error
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
+Дополнительная информация
+- https://docs.oracle.com/javase/tutorial/essential/exceptions/
+
 Задания
+- Заменить сообщения о нарушении логики в приложении на пробрасывания исключительных ситуаций.
+- Добавить тесты, которые проверяют эти исключения.
+
 Занятие 9. Создание исполняемого файла. Manifest
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
@@ -106,7 +150,6 @@ https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
 - Попросить своих друзей попробовать использовать программу.
 - Получить впечатление, отзывы от друзей. Провести работу по исправлению.
 
-Задания
 Занятие 10. Коллекции. List, Set, Map, Tree.
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
