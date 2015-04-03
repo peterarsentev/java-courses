@@ -14,10 +14,22 @@ public class CalculatorTest {
 		assertEquals(2, calculator.getResult());
 	}
 
-	@Test
-	public void testDiv() throws Exception {
+	@Test(expected = UserException.class)
+	public void divException() throws UserException {
+		Calculator calculator = new Calculator();
+		calculator.div();
+	}
+
+	@Test()
+	public void div() throws UserException {
 		Calculator calculator = new Calculator();
 		calculator.div(1, 1);
 		assertEquals(1, calculator.getResult());
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void divRuntimeException() throws UserException {
+		Calculator calculator = new Calculator();
+		calculator.div(1, 0);
 	}
 }
