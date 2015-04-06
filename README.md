@@ -152,9 +152,16 @@ https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
 
 Занятие 10. Коллекции. List, Set, Map, Tree.
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://youtu.be/toaYofpHwUg)
+
+дополнительная информация
+ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%20&%20Scientific/Java/Java%20Generics%20and%20Collections/Java%20Generics%20and%20Collections.pdf
 
 Задания
+1. Создать свою реализацию коллекций ArrayList - на базе массива.
+2. Создать свою реализацию LinkedList - на базе связанных списков.
+3. Заменить массивы в проекте клиника на вашу реализацию.
+
 Занятие 11. Коллекции. Equals. hashCode
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
