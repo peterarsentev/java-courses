@@ -1,4 +1,4 @@
-package ru.lesson.lessons;
+package ru.lessons.lesson_10;
 
 
 /**
@@ -46,10 +46,9 @@ public class User {
 
 	@Override
 	public int hashCode() {
-//		int result = id != null ? id.hashCode() : 0;
-//		result = 31 * result + (name != null ? name.hashCode() : 0);
-//		return result;
-		return super.hashCode();
+		int result = id != null ? id.hashCode() : 0;
+		result = 31 * result + (name != null ? name.hashCode() : 0);
+		return result;
 	}
 
 	@Override

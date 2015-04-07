@@ -1,4 +1,4 @@
-package ru.lesson.lessons;
+package ru.lessons.lesson_8;
 
 
 /**

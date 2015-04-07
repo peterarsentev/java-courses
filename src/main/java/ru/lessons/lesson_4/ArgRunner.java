@@ -1,4 +1,5 @@
-package ru.lesson.lessons;
+package ru.lessons.lesson_4;
+
 /**
  * Класс для запуска калькулятор с параметрами.
  */

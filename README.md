@@ -166,7 +166,17 @@ ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
+Дополнительная информация
+http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf
+
 Задания
+- Создать класс пользователь.
+- Провести эксперимент с коллекциями ArrayList, HashSet, HashMap
+- Перекрыть equals, hashCode.
+- Перекрыть только equals
+- Перекрыть только hashCode
+- Не перекрывать
+- Объяснить результаты работы коллекций. Метолов contains, add, size, put
 
 Занятие 12. Многопоточность
 --------------------------

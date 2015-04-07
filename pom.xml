@@ -37,7 +37,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>ru.lesson.lessons.Calculate</mainClass>
+							<mainClass>ru.lessons.lession_3.Calculate</mainClass>
 							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>

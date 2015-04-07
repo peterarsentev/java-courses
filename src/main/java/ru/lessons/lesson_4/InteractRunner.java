@@ -1,4 +1,6 @@
-package ru.lesson.lessons;
+package ru.lessons.lesson_4;
+
+import ru.lessons.lesson_8.UserException;
 
 import java.util.Scanner;
 

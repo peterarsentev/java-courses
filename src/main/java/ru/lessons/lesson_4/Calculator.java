@@ -1,4 +1,6 @@
-package ru.lesson.lessons;
+package ru.lessons.lesson_4;
+
+import ru.lessons.lesson_8.UserException;
 
 /**
  * Класс реализует калькулятор.
@@ -22,7 +24,7 @@ public class Calculator {
 	/**
 	 * Вычиляем деление.
 	 * @param args входящие агрументы.
-	 * @throws UserException Если агрументов нет, выкидывает исключение.
+	 * @throws ru.lessons.lesson_8.UserException Если агрументов нет, выкидывает исключение.
 	 */
 	public void div(int ... args) throws UserException {
 		if (args.length > 0) {

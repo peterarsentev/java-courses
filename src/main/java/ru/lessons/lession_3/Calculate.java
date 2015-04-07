@@ -1,4 +1,4 @@
-package ru.lesson.lessons;
+package ru.lessons.lession_3;
 
 /**
  * Класс для вычисления суммы двух чисел. Числа беруться из входщего массива.

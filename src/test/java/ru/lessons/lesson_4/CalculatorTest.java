@@ -1,7 +1,8 @@
-package ru.lesson.lessons;
+package ru.lessons.lesson_4;
 
-import org.junit.Assert;
 import org.junit.Test;
+import ru.lessons.lesson_4.Calculator;
+import ru.lessons.lesson_8.UserException;
 
 import static org.junit.Assert.*;
 
