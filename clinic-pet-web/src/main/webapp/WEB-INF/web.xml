@@ -6,11 +6,6 @@
 
 	<display-name>ClinicPet</display-name>
 
-	<description>
-		This is a simple web application with a source code organization
-		based on the recommendations of the Application Developer's Guide.
-	</description>
-
 	<servlet>
 		<servlet-name>ClinicServlet</servlet-name>
 		<servlet-class>ru.parsentev.servlets.ClinicServlet</servlet-class>
@@ -21,4 +16,43 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>UserViewServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.UserViewServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserViewServlet</servlet-name>
+		<url-pattern>/user/view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserCreateServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.UserCreateServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserCreateServlet</servlet-name>
+		<url-pattern>/user/create</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserEditServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.UserEditServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserEditServlet</servlet-name>
+		<url-pattern>/user/edit</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserDeleteServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.UserDeleteServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserDeleteServlet</servlet-name>
+		<url-pattern>/user/delete</url-pattern>
+	</servlet-mapping>
 </web-app>     
