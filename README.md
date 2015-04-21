@@ -182,75 +182,107 @@ http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
+Дополнительная информация
+https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
+
+Задания
+- Реализовать эммуляцию клиентов и администратора в проекте клинила для домашних питомцев.
+
+Занятие 13. GUI. Игра сапер.
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Дополнительная информация
+http://docs.oracle.com/javase/tutorial/uiswing/
+
+Задания
+- Завершить игру сапер реализованную на основе Swing
+
+Занятие 14. Клиент-сервер. Протоколы передачи.
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Дополнительная информация
+http://en.wikipedia.org/wiki/Client%E2%80%93server_model
+http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+
+Задания
+- Расширить модель User.
+- Сделать возможность поиска.
+
+Занятие 15. JSP, Servlet, JTLS
+--------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Дополнительная информация
+http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
+
+Задания
+- Реализовать проект клинику домашних животных в Web приложение
+
+Занятие 16. Тестирование Servlet. Mockito
+-----------------------------------------
+[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+
+Дополнительная информация
+
 Задания
 
-Занятие 13. Клиент-сервер. Протоколы передачи.
+Занятие 17. HTML, CSS, JS
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
 
-Занятие 14. JSP, Servlet, JTLS
+Занятие 18. SQL
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
 
-Занятие 15. HTML, CSS, JS
+Занятие 19. JDBC
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
 
-Занятие 16. SQL
+Занятие 20. Hibernate, Config
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
 
-Занятие 17. JDBC
+Занятие 21. Hibernate, Mapping
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
 
-Занятие 18. Hibernate, Config
+Занятие 22. Hibernate, Query
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
 
-Занятие 19. Hibernate, Mapping
+Занятие 23. Spring, IoC
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Задания
 
-Занятие 20. Hibernate, Query
---------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
-
-Задания
-
-Занятие 21. Spring, IoC
---------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
-
-Задания
-
-Занятие 22. Spring Template, Hibernate
+Занятие 24. Spring Template, Hibernate
 --------------------------
 [Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 
-Занятие 22. Spring MVC
+Занятие 25. Spring MVC
 --------------------------
 [Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
 
 Задания
 
-Занятие 23. Spring Security
+Занятие 26. Spring Security
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
