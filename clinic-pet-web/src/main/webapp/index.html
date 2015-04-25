@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript">
+        function createUser() {
+            if (validate()) {
+                $('#name').css('background-color', '');
+                $.ajax('user/json', {
+                    method : 'post',
+                    data: JSON.stringify({login : $('#name').val()}),
+                    complete: function(data) {
+                        loadUsers();
+                    }
+                });
+            } else {
+                alert("Заполните поля!");
+            }
+        }
+
+        function loadUsers() {
+            $.ajax('user/json', {
+                method : 'get',
+                success: function(data) {
+                    var table = "<table>";
+                    table += "<tr><th>Имя</th></tr>"
+                    var size = data.length;
+                    for (var i=0;i!=size;++i) {
+                        table += "<tr><td>"+data[i].login+"</td></tr>"
+                    }
+                    table += "</table>"
+                    $('#users').html(table);
+                }
+            });
+        }
+
+        function validate() {
+            var result = true;
+            if ($('#name').val() == '') {
+                $('#name').css('background-color', 'red');
+                result = false;
+            }
+            return result;
+        }
+
+        $(function() {
+           loadUsers();
+        });
+    </script>
+</head>
+<body>
+<div id="users" class="center">
+
+</div>
+<div class="center">
+    <div class="form">
+        <div>
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name"/>
+        </div>
+        <div>
+            <label for="agree">Соглашение</label>
+            <input type="checkbox" name="agree" id="agree"/>
+        </div>
+        <div>
+            <label for="sex">Пол </label>
+            <span>
+                <input type="radio" name="sex" id="sex" value="Муж"/> Мужской
+                <input type="radio" name="sex" value="Жен"/> Женский
+            </span>
+        </div>
+        <div>
+            <label for="city">Город</label>
+            <select name="city" id="city">
+                <option value="1">Москва</option>
+                <option value="2">Питер</option>
+            </select>
+        </div>
+        <div style="text-align: right;">
+            <input type="button" value="Создать" onclick="return createUser();">
+        </div>
+    </div>
+</div>
+</body>
+</html>

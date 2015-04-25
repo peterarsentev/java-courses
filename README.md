@@ -225,14 +225,21 @@ http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Дополнительная информация
+https://code.google.com/p/mockito/
 
 Задания
+- Добавить тестирование сервлетов.
+- Добиться пплощади покрытия больше 80%
 
 Занятие 17. HTML, CSS, JS
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+http://www.w3schools.com/html/
 
 Задания
+- Добавить стили.
+- Добавить валидацию за счет js.
+- Добавить разнообразные формы. 
 
 Занятие 18. SQL
 --------------------------

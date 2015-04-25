@@ -13,7 +13,7 @@
 
 	<servlet-mapping>
 		<servlet-name>ClinicServlet</servlet-name>
-		<url-pattern>/</url-pattern>
+		<url-pattern>/test</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -54,5 +54,15 @@
 	<servlet-mapping>
 		<servlet-name>UserDeleteServlet</servlet-name>
 		<url-pattern>/user/delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreateUserJsonServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.CreateUserJsonServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CreateUserJsonServlet</servlet-name>
+		<url-pattern>/user/json</url-pattern>
 	</servlet-mapping>
 </web-app>     
