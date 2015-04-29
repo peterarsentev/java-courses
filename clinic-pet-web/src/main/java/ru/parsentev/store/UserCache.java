@@ -11,47 +11,52 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author parsentev
  * @since 18.04.2015
  */
-public class UserCache {
+public class UserCache implements Storage {
 	private static final UserCache INSTANCE = new UserCache();
 
-	private final AtomicInteger ids = new AtomicInteger();
-
-	private final ConcurrentHashMap<Integer, User> users = new ConcurrentHashMap<Integer, User>();
+	private final Storage storage = new MemoryStorage();
 
 	public static UserCache getInstance() {
 		return INSTANCE;
 	}
 
+	@Override
 	public Collection<User> values() {
-		return this.users.values();
+		return INSTANCE.values();
 	}
 
-	public void add(final User user) {
-		this.users.put(user.getId(), user);
+	@Override
+	public int add(final User user) {
+		return this.storage.add(user);
 	}
 
+	@Override
 	public void edit(final User user) {
-		this.users.replace(user.getId(), user);
+		this.storage.edit(user);
 	}
 
+	@Override
 	public void delete(final int id) {
-		this.users.remove(id);
+		this.storage.delete(id);
 	}
 
+	@Override
 	public User get(final int id) {
-		return this.users.get(id);
+		return this.storage.get(id);
 	}
 
+	@Override
 	public User findByLogin(final String login) {
-		for (final User user : users.values()) {
-			if (user.getLogin().equals(login)) {
-				return user;
-			}
-		}
-		throw new IllegalStateException(String.format("Login %S not found", login));
+		return this.storage.findByLogin(login);
 	}
 
+	@Override
 	public int generateId() {
-		return this.ids.incrementAndGet();
+		return this.storage.generateId();
+	}
+
+	@Override
+	public void close() {
+		this.storage.close();
 	}
 }

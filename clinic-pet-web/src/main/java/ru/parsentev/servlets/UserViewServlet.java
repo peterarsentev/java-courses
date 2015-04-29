@@ -31,4 +31,10 @@ public class UserViewServlet extends HttpServlet {
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/views/user/UserView.jsp");
 		dispatcher.forward(req, resp);
 	}
+
+	@Override
+	public void destroy() {
+		super.destroy();
+		USER_CACHE.close();
+	}
 }
