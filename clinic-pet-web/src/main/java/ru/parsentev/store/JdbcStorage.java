@@ -73,10 +73,12 @@ public class JdbcStorage implements Storage {
 
 	@Override
 	public User get(int id) {
-		try (final Statement statement = this.connection.createStatement();
-		     final ResultSet rs = statement.executeQuery("select * from client")) {
-			while (rs.next()) {
-				return new User(rs.getInt("uid"), rs.getString("name"), null);
+		try (final PreparedStatement statement = this.connection.prepareStatement("select * from client where uid=(?)")) {
+			statement.setInt(1, id);
+			try (final ResultSet rs = statement.executeQuery()) {
+				while (rs.next()) {
+					return new User(rs.getInt("uid"), rs.getString("name"), null);
+				}
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

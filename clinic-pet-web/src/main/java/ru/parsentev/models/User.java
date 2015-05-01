@@ -6,9 +6,12 @@ package ru.parsentev.models;
  * @since 17.04.2015
  */
 public class User {
-	private final int id;
-	private final String login;
-	private final String email;
+	private int id;
+	private String login;
+	private String email;
+
+	public User() {
+	}
 
 	public User(final int id, final String login, final String email) {
 		this.id = id;
@@ -26,5 +29,17 @@ public class User {
 
 	public String getEmail() {
 		return this.email;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }

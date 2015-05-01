@@ -14,12 +14,11 @@ public class Settings {
 
 	private final Properties properties = new Properties();
 
-	public Settings() {
+	private Settings() {
 		try {
 			properties.load(new FileInputStream(this.getClass().getClassLoader().getResource("parsentev.properties").getFile()));
 		} catch (IOException e) {
-
-
+			e.printStackTrace();
 		}
 	}
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+		"-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="ru.parsentev.models.User" table="client">
+		<meta attribute="class-description">
+			This class contains the user detail.
+		</meta>
+		<id name="id" type="int" column="uid">
+			<generator class="identity"/>
+		</id>
+		<property name="login" column="name" type="string"/>
+	</class>
+</hibernate-mapping>

@@ -8,16 +8,18 @@ import static org.junit.Assert.*;
 /**
  * TODO: comment
  * @author parsentev
- * @since 29.04.2015
+ * @since 01.05.2015
  */
-public class JdbcStorageTest {
-
+public class HibernateStorageTest {
 	@Test
 	public void testCreate() throws Exception {
-		final JdbcStorage storage = new JdbcStorage();
-		final int id = storage.add(new User(-1, "test", null));
+		final HibernateStorage storage = new HibernateStorage();
+		final int id = storage.add(new User(-1, "hibenate", null));
 		final User user = storage.get(id);
 		assertEquals(id, user.getId());
+		assertEquals(id, storage.findByLogin("hibenate").getId());
+		storage.delete(id);
+		assertNull(storage.get(id));
 		storage.close();
 	}
 }
