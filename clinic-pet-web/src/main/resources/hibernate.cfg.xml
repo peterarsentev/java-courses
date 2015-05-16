@@ -17,9 +17,12 @@
 		<property name="hibernate.c3p0.max_statements">50</property>
 		<property name="hibernate.c3p0.idle_test_period">1000</property>
 		<property name="hibernate.c3p0.validate">true</property>
+		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.connection.provider_class">org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider</property>
 
 		<!-- List of XML mapping files -->
+		<mapping resource="ru/parsentev/models/Role.hbm.xml"/>
 		<mapping resource="ru/parsentev/models/User.hbm.xml"/>
+		<mapping resource="ru/parsentev/models/Message.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>

@@ -1,6 +1,7 @@
 package ru.parsentev.models;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * TODO: comment
@@ -11,7 +12,7 @@ public class User extends Base {
 	private String login;
 	private String email;
 	private Role role;
-	private List<Message> messages;
+	private Set<Message> messages;
 
 	public User() {
 	}
@@ -30,11 +31,11 @@ public class User extends Base {
 		this.role = role;
 	}
 
-	public List<Message> getMessages() {
+	public Set<Message> getMessages() {
 		return messages;
 	}
 
-	public void setMessages(List<Message> messages) {
+	public void setMessages(Set<Message> messages) {
 		this.messages = messages;
 	}
 
@@ -44,10 +45,6 @@ public class User extends Base {
 
 	public String getEmail() {
 		return this.email;
-	}
-
-	public void setId(int id) {
-		this.id = id;
 	}
 
 	public void setLogin(String login) {

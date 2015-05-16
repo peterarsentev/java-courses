@@ -4,7 +4,7 @@
 		"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="ru.parsentev.models.Message" table="message">
+	<class name="ru.parsentev.models.Message" table="messages">
 		<meta attribute="class-description">
 			This class contains the pet detail.
 		</meta>

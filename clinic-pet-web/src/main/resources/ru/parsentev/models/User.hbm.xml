@@ -4,13 +4,24 @@
 		"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="ru.parsentev.models.User" table="client">
+	<class name="ru.parsentev.models.User" table="users">
 		<meta attribute="class-description">
 			This class contains the user detail.
 		</meta>
+
 		<id name="id" type="int" column="uid">
 			<generator class="identity"/>
 		</id>
-		<property name="login" column="name" type="string"/>
+
+		<property name="login" column="login" type="string"/>
+
+		<property name="email" column="email" type="string"/>
+
+		<many-to-one name="role" column="role_id" class="ru.parsentev.models.Role" cascade="save-update"/>
+
+		<set name="messages" table="messages" lazy="false" inverse="true" cascade="all" >
+			<key column="user_id" not-null="true"/>
+			<one-to-many class="ru.parsentev.models.Message"/>
+		</set>
 	</class>
 </hibernate-mapping>
