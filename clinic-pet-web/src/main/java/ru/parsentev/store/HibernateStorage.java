@@ -20,6 +20,7 @@ public class HibernateStorage implements Storage {
 	public HibernateStorage() {
 		factory = new Configuration().configure().buildSessionFactory();
 	}
+
 	@Override
 	public Collection<User> values() {
 		final Session session = factory.openSession();

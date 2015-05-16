@@ -30,3 +30,26 @@ update pet as pet set nick = 'bob' where pet.nick = 'boby'
 
 -- delete pet by nick
 delete from pet as pet where pet.nick = 'bob'
+
+-- roles
+create table roles (
+		uid serial primary key,
+		name varchar(200)
+);
+
+-- users
+create table users (
+		uid serial primary key,
+		login varchar(200),
+		email varchar(200),
+		role_id int not null references roles(uid)
+);
+
+-- messages
+
+-- users
+create table messages (
+		uid serial primary key,
+		text  character varying,
+		user_id int not null references users(uid)
+);
