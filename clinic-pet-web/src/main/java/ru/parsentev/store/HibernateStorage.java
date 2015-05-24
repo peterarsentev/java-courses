@@ -8,6 +8,7 @@ import org.hibernate.cfg.Configuration;
 import ru.parsentev.models.User;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * TODO: comment
@@ -21,79 +22,99 @@ public class HibernateStorage implements Storage {
 		factory = new Configuration().configure().buildSessionFactory();
 	}
 
-	@Override
-	public Collection<User> values() {
+	public interface Command<T> {
+		T process(Session session);
+	}
+
+	private <T> T transaction(final Command<T> command) {
 		final Session session = factory.openSession();
-		Transaction tx = session.beginTransaction();
+		final Transaction tx = session.beginTransaction();
 		try {
-			return session.createQuery("from User").list();
+			return command.process(session);
 		} finally {
 			tx.commit();
 			session.close();
 		}
+	}
+
+	@Override
+	public Collection<User> values() {
+		return transaction((Session session) -> session.createQuery("from User").list());
 	}
 
 	@Override
 	public int add(final User user) {
-		final Session session = factory.openSession();
-		Transaction tx = session.beginTransaction();
-		try {
-			session.save(user);
-			return user.getId();
-		} finally {
-			tx.commit();
-			session.close();
-		}
+		return transaction(
+				(Session session) -> {
+					session.save(user);
+					return user.getId();
+				}
+		);
 	}
 
 	@Override
-	public void edit(User user) {
-		final Session session = factory.openSession();
-		Transaction tx = session.beginTransaction();
-		try {
-			session.update(user);
-		} finally {
-			tx.commit();
-			session.close();
-		}
+	public void edit(final User user) {
+		transaction(
+				(Session session) -> {
+					session.update(user);
+					return null;
+				}
+		);
 	}
 
 	@Override
-	public void delete(int id) {
-		final Session session = factory.openSession();
-		Transaction tx = session.beginTransaction();
-		try {
-			session.delete(get(id));
-		} finally {
-			tx.commit();
-			session.close();
-		}
+	public void delete(final int id) {
+		transaction(new Command() {
+			@Override
+			public Object process(Session session) {
+				session.delete(get(id));
+				return null;
+			}
+		});
 	}
 
 	@Override
-	public User get(int id) {
-		final Session session = factory.openSession();
-		Transaction tx = session.beginTransaction();
-		try {
-			return (User) session.get(User.class, id);
-		} finally {
-			tx.commit();
-			session.close();
-		}
+	public User get(final int id) {
+		return transaction(new Command<User>() {
+			@Override
+			public User process(Session session) {
+				return (User) session.get(User.class, id);
+			}
+		});
 	}
 
 	@Override
-	public User findByLogin(String login) {
-		final Session session = factory.openSession();
-		Transaction tx = session.beginTransaction();
-		try {
-			final Query query = session.createQuery("from User as user where user.login=:login");
-			query.setString("login", login);
-			return (User) query.iterate().next();
-		} finally {
-			tx.commit();
-			session.close();
-		}
+	public User findByLogin(final String login) {
+		return transaction(new Command<User>() {
+			@Override
+			public User process(Session session) {
+				final Query query = session.createQuery("from User as user where user.login=:login");
+				query.setString("login", login);
+				return (User) query.iterate().next();
+			}
+		});
+	}
+
+	public List<User> findByRoleName(final String roleName) {
+		return transaction(new Command<List<User>>() {
+			@Override
+			public List<User> process(Session session) {
+				final Query query = session.createQuery("from User as user inner join user.role as role on role.name=:name");
+				query.setString("name", roleName);
+				return query.list();
+			}
+		});
+	}
+
+	public List<User> searchByLogin(final String login) {
+		return transaction(new Command<List<User>>() {
+			@Override
+			public List<User> process(Session session) {
+				final Query query = session.createQuery("from User as user where lower(user.login) like %:login%");
+				query.setString("login", login);
+				return query.list();
+			}
+		});
 	}
 
 	@Override
