@@ -16,10 +16,8 @@ import java.io.IOException;
  * @author parsentev
  * @since 17.04.2015
  */
-@Controller
 public class UserViewServlet extends HttpServlet {
 
-	@Autowired
 	private UserStorage storage;
 
 	@Override

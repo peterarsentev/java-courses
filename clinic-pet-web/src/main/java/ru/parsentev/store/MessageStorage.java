@@ -1,6 +1,7 @@
 package ru.parsentev.store;
 
 import org.springframework.stereotype.Repository;
+import ru.parsentev.models.Message;
 import ru.parsentev.models.Role;
 
 import java.util.Collection;
@@ -11,20 +12,20 @@ import java.util.Collection;
  * @since 30.05.2015
  */
 @Repository
-public class MessageStorage implements Storage<Role> {
+public class MessageStorage implements Storage<Message> {
 
 	@Override
-	public Collection<Role> values() {
+	public Collection<Message> values() {
 		return null;
 	}
 
 	@Override
-	public int add(Role user) {
+	public int add(Message user) {
 		return 0;
 	}
 
 	@Override
-	public void edit(Role user) {
+	public void edit(Message user) {
 
 	}
 
@@ -34,12 +35,12 @@ public class MessageStorage implements Storage<Role> {
 	}
 
 	@Override
-	public Role get(int id) {
+	public Message get(int id) {
 		return null;
 	}
 
 	@Override
-	public Role findByLogin(String login) {
+	public Message findByLogin(String login) {
 		return null;
 	}
 

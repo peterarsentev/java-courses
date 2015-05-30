@@ -12,12 +12,12 @@ import org.springframework.stereotype.Service;
 public class Storages {
 	public final UserStorage userStorage;
 
-	public final RoleStorage roleStorage;
+	public final RoleDAO roleStorage;
 
 	public final MessageStorage messageStorage;
 
 	@Autowired
-	public Storages(final UserStorage userStorage, final RoleStorage roleStorage, final MessageStorage messageStorage) {
+	public Storages(final UserStorage userStorage, final RoleDAO roleStorage, final MessageStorage messageStorage) {
 		this.userStorage = userStorage;
 		this.roleStorage = roleStorage;
 		this.messageStorage = messageStorage;

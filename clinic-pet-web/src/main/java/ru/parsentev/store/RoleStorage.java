@@ -16,7 +16,7 @@ import java.util.List;
  * @since 30.05.2015
  */
 @Repository
-public class RoleStorage implements Storage<Role> {
+public class RoleStorage implements RoleDAO {
 
 	private final HibernateTemplate template;
 
@@ -30,6 +30,7 @@ public class RoleStorage implements Storage<Role> {
 		return (List<Role>) this.template.find("from Role");
 	}
 
+	@Transactional
 	@Override
 	public int add(Role user) {
 		return (int) this.template.save(user);
@@ -37,7 +38,6 @@ public class RoleStorage implements Storage<Role> {
 
 	@Override
 	public void edit(Role user) {
-
 	}
 
 	@Override

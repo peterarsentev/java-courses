@@ -1,5 +1,6 @@
 package ru.parsentev.store;
 
+import org.springframework.transaction.annotation.Transactional;
 import ru.parsentev.models.User;
 
 import java.util.Collection;
