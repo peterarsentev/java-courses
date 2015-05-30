@@ -1,9 +1,14 @@
 package ru.parsentev.store;
 
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate4.HibernateTemplate;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 import ru.parsentev.models.Role;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * TODO: comment
@@ -13,14 +18,21 @@ import java.util.Collection;
 @Repository
 public class RoleStorage implements Storage<Role> {
 
+	private final HibernateTemplate template;
+
+	@Autowired
+	public RoleStorage(final HibernateTemplate template) {
+		this.template = template;
+	}
+
 	@Override
 	public Collection<Role> values() {
-		return null;
+		return (List<Role>) this.template.find("from Role");
 	}
 
 	@Override
 	public int add(Role user) {
-		return 0;
+		return (int) this.template.save(user);
 	}
 
 	@Override

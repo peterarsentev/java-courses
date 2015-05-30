@@ -16,4 +16,11 @@ public class Role extends Base {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return "Role{" +
+		       "name='" + name + '\'' +
+		       '}';
+	}
 }
