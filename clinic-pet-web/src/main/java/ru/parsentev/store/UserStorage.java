@@ -5,6 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.springframework.stereotype.Repository;
 import ru.parsentev.models.User;
 
 import java.util.Collection;
@@ -15,10 +16,11 @@ import java.util.List;
  * @author parsentev
  * @since 01.05.2015
  */
-public class HibernateStorage implements Storage {
+@Repository
+public class UserStorage implements Storage<User> {
 	private final SessionFactory factory;
 
-	public HibernateStorage() {
+	public UserStorage() {
 		factory = new Configuration().configure().buildSessionFactory();
 	}
 

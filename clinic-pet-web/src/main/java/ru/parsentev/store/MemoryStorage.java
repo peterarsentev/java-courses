@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author parsentev
  * @since 29.04.2015
  */
-public class MemoryStorage implements Storage {
+public class MemoryStorage implements Storage<User> {
 
 	private final AtomicInteger ids = new AtomicInteger();
 

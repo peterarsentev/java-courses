@@ -20,7 +20,7 @@ public class HibernateStorageTest {
 	@Ignore
 	@Test
 	public void testCreate() throws Exception {
-		final HibernateStorage storage = new HibernateStorage();
+		final UserStorage storage = new UserStorage();
 		final int id = storage.add(new User(-1, "hibenate", null));
 		final User user = storage.get(id);
 		assertEquals(id, user.getId());
@@ -32,7 +32,7 @@ public class HibernateStorageTest {
 
 	@Test
 	public void testCreateUser() throws Exception {
-		final HibernateStorage storage = new HibernateStorage();
+		final UserStorage storage = new UserStorage();
 		Role role = new Role();
 		role.setName("admin");
 		User user = new User();

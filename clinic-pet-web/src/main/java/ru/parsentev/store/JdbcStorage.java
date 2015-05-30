@@ -19,7 +19,7 @@ import java.util.List;
  * @author parsentev
  * @since 29.04.2015
  */
-public class JdbcStorage implements Storage {
+public class JdbcStorage implements Storage<User> {
 	private final Connection connection;
 
 	public JdbcStorage() {

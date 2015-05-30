@@ -11,10 +11,10 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author parsentev
  * @since 18.04.2015
  */
-public class UserCache implements Storage {
+public class UserCache implements Storage<User> {
 	private static final UserCache INSTANCE = new UserCache();
 
-	private final Storage storage = new MemoryStorage();
+	private final Storage<User> storage = new MemoryStorage();
 
 	public static UserCache getInstance() {
 		return INSTANCE;
@@ -22,7 +22,7 @@ public class UserCache implements Storage {
 
 	@Override
 	public Collection<User> values() {
-		return INSTANCE.values();
+		return storage.values();
 	}
 
 	@Override
