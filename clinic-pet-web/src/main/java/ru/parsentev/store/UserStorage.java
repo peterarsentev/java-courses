@@ -119,6 +119,19 @@ public class UserStorage implements Storage<User> {
 		});
 	}
 
+	public User findByAuth(final String login, final String password) {
+		return transaction(new Command<User>() {
+			@Override
+			public User process(Session session) {
+				final Query query = session.createQuery("from User as user where user.login=:login and user.password=:password");
+				query.setString("login", login);
+				query.setString("password", password);
+				List<User> users = query.list();
+				return users.isEmpty() ? null : users.iterator().next();
+			}
+		});
+	}
+
 	@Override
 	public int generateId() {
 		return 0;

@@ -1,6 +1,8 @@
 package ru.parsentev.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.ModelMap;
@@ -25,6 +27,10 @@ public class AdminController {
 
 	@RequestMapping(value = "/roles", method = RequestMethod.GET)
 	public String showRoles(ModelMap model) {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		//current user
+		String login = auth.getName();
+
 		model.addAttribute("roles", storages.roleStorage.values());
 		return "admin/roles";
 	}

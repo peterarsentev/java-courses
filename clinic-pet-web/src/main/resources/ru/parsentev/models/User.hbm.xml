@@ -17,7 +17,9 @@
 
 		<property name="email" column="email" type="string"/>
 
-		<many-to-one name="role" column="role_id" class="ru.parsentev.models.Role" cascade="save-update"/>
+		<property name="password" column="password" type="string"/>
+
+		<many-to-one name="role" lazy="false" column="role_id" class="ru.parsentev.models.Role" cascade="save-update"/>
 
 		<set name="messages" table="messages" lazy="false" inverse="true" cascade="all" >
 			<key column="user_id" not-null="true"/>

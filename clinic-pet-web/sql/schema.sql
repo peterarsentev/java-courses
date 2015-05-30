@@ -53,3 +53,5 @@ create table messages (
 		text  character varying,
 		user_id int not null references users(uid)
 );
+
+alter table users add column password character varying;
