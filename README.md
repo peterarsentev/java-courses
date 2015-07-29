@@ -6,8 +6,8 @@ Java. Путь от ученика до эксперта.
 
 Цель курса
 ----------
-Всем привет. Меня зовут Петр. Я - Java разработчик с опытом работы более 6 лет. На своем опыте я знаю, как сложно освоить новый язык или технологию. Когда человек начинает изучать Java, первое, с чем он сталкивается, - это огромное количество технологий, фрейворков и библиотек. Человек теряется, что же ему учить. Создается впечатление, что порог вхождения в Java программисты очень высок. Данным курсом я хочу показать обратное. За пару месяцев интенсивного обучение по курсу вы овлаедете достаточными знаниями для устройтва на работу, прохождения собеседоавния и выполнения требуемых задач на работе.
-Особо хотел бы отметить, что это практический курс, поэтому важную роль играет выполнение всех заданиий в каждом занятии. Только тогда будет положительный результат.
+Всем привет. Меня зовут Петр. Я - Java разработчик с опытом работы более 6 лет. На своем опыте я знаю, как сложно освоить новый язык или технологию. Когда человек начинает изучать Java, первое, с чем он сталкивается, - это огромное количество технологий, фрейворков и библиотек. Человек теряется, что же ему учить. Создается впечатление, что порог вхождения в Java программисты очень высок. Данным курсом я хочу показать обратное. За пару месяцев интенсивного обучение по курсу вы овладеете достаточными знаниями для устройства на работу, прохождения собеседовании и выполнения требуемых задач на работе.
+Особо хотел бы отметить, что это практический курс, поэтому важную роль играет выполнение всех задании в каждом занятии. Только тогда будет положительный результат.
 
 Книга. Java. Путь от ученика до эксперта. Практические задания. Разбор решений. Комментарии.
 --------------------------------------------------------------------------------------------
@@ -23,6 +23,40 @@ Java. Путь от ученика до эксперта.
 
 **Заявку на приобретение книги отправляйте мне на почту parsentev@yandex.ru.**
 
+Консультации
+------------
+
+Я оказываю консультации по разработке ПО:
+
+ - Обучение языку программирования Java (Индивидуальные, групповые занятия).
+ - Составление команды разработки (Отбор, собеседование, распределение ролей)
+ - Внедрение методологии разработки (Agile, Lean, XP, Scrum, Kanban)
+ - Составление технического задания
+ - Выбор технологий разработки (Библиотеки, Фреймворки)
+ - Обучение конкретным библиотекам и Фреймворкам.
+ 
+**Стоимость услуг обсуждается индивидуально.**
+
+По курсу - Java. Путь от ученика до эксперта.
+
+Разовая консультация. Включает в себя
+
+ - Определение текущего уровня владения языком Java.
+ - Детальные рекомендации по дальнейшему развитию.
+ - Мотивирующие данные.
+ - Время консльтации : 2 часа.
+Стоимость : 2000р
+
+Индивидуальные занятия по всему курсу. Включает в себя
+
+ - Объяснение каждого занятия.
+ - Проверка каждого задания.
+ - Рекомендации по улучшению.
+ - Мотивирующие данные.
+ - Время консультации 10-15 минут на каждое занятие.
+Стоимость : 5000р.
+
+**Вопросы и заявки на консультации отправляйте на почту parsentev@yandex.ru.**
 
 План курса
 ----------
@@ -33,8 +67,8 @@ Java. Путь от ученика до эксперта.
 - Коллекции. List, Set, Map, Tree
 - Инструменты сборки. Хранения кода. Maven, Git
 - Базовые понятия клиент-серверных приложений. Протоколы передачи
-- Обработка http запросов в Java. Servlets. JSP
-- Базовые понятие по HTML, CSS, JSьти а   
+- Обработка http запросов в Java. Servlets. JSP
+- Базовые понятие по HTML, CSS, JS
 - Реализация MVC через Servlets. JSP
 - Работа с базой данных. JDBC
 - Базовый синтаксис SQL
@@ -51,6 +85,7 @@ Java. Путь от ученика до эксперта.
 [Видео](http://www.youtube.com/watch?v=3Wn_mc12_yA)
 
 Задания
+
 - Какой Вы хотите добиться целью изучения языка Java?
 - Как Вы можете проверить что цель достигнута?
 - Какой срок реализации Вашей цели?
@@ -66,7 +101,8 @@ Java. Путь от ученика до эксперта.
 - IDEA https://www.jetbrains.com/idea/
 
 Задания
-- Установить все пакеты на своем компьюере. 
+
+- Установить все пакеты на своем компьютере. 
 - Прописать необходимые переменные окружения.
 - Проверить работоспособность каждого элемента из списка.
 
@@ -79,6 +115,7 @@ Java. Путь от ученика до эксперта.
 Детальное описание https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
 Задания
+
 - Создать класс Calculate.
 - Добавить арифметические вычисления + - * / ^
 - Сделать его адаптивным для типов int, short, long, float, double.
@@ -92,6 +129,7 @@ Java. Путь от ученика до эксперта.
 - http://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
 
 Задания
+
 - Создать класс Calculator.
 - Добавить два класс клиента ArgRunner, InteractRunner. 
 - ArgRunner - данные получает из параметров запуска программы.
@@ -106,6 +144,7 @@ Java. Путь от ученика до эксперта.
 - http://www.oracle.com/technetwork/articles/java/index-137868.html
 
 Задания
+
 - Проверить весь проект по пунктам из занятия.
 - Поправить нарушения этих правил.
 
@@ -118,6 +157,7 @@ Java. Путь от ученика до эксперта.
 - https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
 
 Задания
+
 - Создать программу для обслуживания клиники домашних питомцев.
 - Должна быть возможно добавлять клиентов.
 - Указывать какой питомец есть у клиента.
@@ -129,7 +169,7 @@ Java. Путь от ученика до эксперта.
 
 Занятие 7. Подключение Maven, IDEA, JUnit
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=rTvOSS99-y8)
 
 Дополнительная информация
 - http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
@@ -138,53 +178,58 @@ Java. Путь от ученика до эксперта.
 - http://en.wikipedia.org/wiki/Black-box_testing
 
 Задания
+
 - Добавить maven для проекта Клиника. Калькулятор.
 - Добавить тесты в эти проекты.
 
 Занятие 8. Исключительные ситуации. Exception, Error
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=GgXXwDlhTKw)
 
 Дополнительная информация
 - https://docs.oracle.com/javase/tutorial/essential/exceptions/
 
 Задания
+
 - Заменить сообщения о нарушении логики в приложении на пробрасывания исключительных ситуаций.
 - Добавить тесты, которые проверяют эти исключения.
 
 Занятие 9. Создание исполняемого файла. Manifest
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=X5eI5OhRWis)
 
-Дополнительная инфармация 
+Дополнительная информация 
 https://maven.apache.org/plugins/maven-jar-plugin/examples/manifest-customization.html
 https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
 Задания
-- Сделать прогрумму клиники исполняемой. 
-- Добавить файл README.md и описать в нем заначение программы, возможности.
+
+- Сделать программу клиники исполняемой. 
+- Добавить файл README.md и описать в нем назначение программы, возможности.
 - Попросить своих друзей попробовать использовать программу.
 - Получить впечатление, отзывы от друзей. Провести работу по исправлению.
 
 Занятие 10. Коллекции. List, Set, Map, Tree.
 --------------------------
-[Видео](http://youtu.be/toaYofpHwUg)
+[Видео](http://www.youtube.com/watch?v=toaYofpHwUg)
 
 дополнительная информация
 ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%20&%20Scientific/Java/Java%20Generics%20and%20Collections/Java%20Generics%20and%20Collections.pdf
 
 Задания
+
 1. Создать свою реализацию коллекций ArrayList - на базе массива.
 2. Создать свою реализацию LinkedList - на базе связанных списков.
 3. Заменить массивы в проекте клиника на вашу реализацию.
 
 Занятие 11. Коллекции. Equals. hashCode
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=e9U_GBrwtvQ)
 
 Дополнительная информация
 http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf
 
 Задания
+
 - Создать класс пользователь.
 - Провести эксперимент с коллекциями ArrayList, HashSet, HashMap
 - Перекрыть equals, hashCode.
@@ -201,111 +246,177 @@ http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.
 https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
 
 Задания
-- Реализовать эммуляцию клиентов и администратора в проекте клинила для домашних питомцев.
+
+- Реализовать эмуляцию клиентов и администратора в проекте клиника для домашних питомцев.
 
 Занятие 13. GUI. Игра сапер.
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=6pwM3p2pbic)
 
 Дополнительная информация
 http://docs.oracle.com/javase/tutorial/uiswing/
 
 Задания
+
 - Завершить игру сапер реализованную на основе Swing
 
 Занятие 14. Клиент-сервер. Протоколы передачи.
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=6tg-82cdDWE)
 
 Дополнительная информация
 http://en.wikipedia.org/wiki/Client%E2%80%93server_model
 http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 Задания
+
 - Расширить модель User.
 - Сделать возможность поиска.
 
 Занятие 15. JSP, Servlet, JTLS
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=yGeDFoUjmbo)
 
 Дополнительная информация
 http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
 
 Задания
+
 - Реализовать проект клинику домашних животных в Web приложение
 
 Занятие 16. Тестирование Servlet. Mockito
 -----------------------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=CiPhTanChr8)
 
 Дополнительная информация
 https://code.google.com/p/mockito/
 
 Задания
+
 - Добавить тестирование сервлетов.
-- Добиться пплощади покрытия больше 80%
+- Добиться площади покрытия больше 80%
 
 Занятие 17. HTML, CSS, JS
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=UTU-vsDR_tU)
+
+Дополнительная информация
 http://www.w3schools.com/html/
 
 Задания
+
 - Добавить стили.
 - Добавить валидацию за счет js.
 - Добавить разнообразные формы. 
 
 Занятие 18. SQL
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=Pzkv4CYKPDg)
+
+Дополнительная информация
+http://www.postgresqltutorial.com/
 
 Задания
+
+- Создать структуры базы данных для хранения данных клиники
+- Создать записи для клиентов, питомцев.
+- Редактировать записи для клиентов, питомцев.
+- Удалить записи для клиентов, питомцев.
+- Получение записей о клиентах, питомцах.
 
 Занятие 19. JDBC
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=T60lPwMCq7c)
+
+Дополнительная информация
+http://docs.oracle.com/javase/tutorial/jdbc/
 
 Задания
+
+- Заменить хранение данных в клиенте на хранение в базе через jdbc
 
 Занятие 20. Hibernate, Config
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=_wsN58yk_WE)
+
+Дополнительная информация
+https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
 
 Задания
+
+- Создать новый тип хранилища не основе Hibernate.
 
 Занятие 21. Hibernate, Mapping
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=ZhRt5fwEi0s)
+
+Дополнительная информация
+https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/persistent-classes.html
 
 Задания
+
+- Добавить связи в моделях клиники.
 
 Занятие 22. Hibernate, Query
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=2faPicW-xbg)
+
+Дополнительная информация
+https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/collections.html
 
 Задания
+
+- Добавить сложные поисковые запросы в клинику через Hibernate Query.
 
 Занятие 23. Spring, IoC
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=m5RPXecCOlo)
+
+Дополнительная информация
+http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html
 
 Задания
+
+- Реализовать dbtool. Использую Spring IoC.
 
 Занятие 24. Spring Template, Hibernate
 --------------------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=XuK0bC3cl_w)
+
+Дополнительная информация
+http://docs.spring.io/spring/docs/current/spring-framework-reference/html/classic-spring.html
 
 Задания
+
+- Сделать интеграцию Spring и Hibernate.
 
 Занятие 25. Spring MVC
 --------------------------
-[Видео](http://www.youtube.com/channel/UCLUYG3J5lYXs9gwz98aXIsQ)
+[Видео](http://www.youtube.com/watch?v=gU-oZv8FZ4Q)
+
+Дополнительная информация
+http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
 
 Задания
+
+- Реализовать MVC через Spring.
 
 Занятие 26. Spring Security
 --------------------------
-[Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
+[Видео](http://www.youtube.com/watch?v=NxSK0pR_Qhc)
+
+Дополнительная информация
+http://projects.spring.io/spring-security/
 
 Задания
+
+- Добавить прослойку проверки авторизации и аутентификации.
+
+Занятие 27. Заключение
+----------------------
+
+[Видео](http://www.youtube.com/watch?v=suWXTXSvmuE)
+
+Задания
+
+- Создать проект клиника использую все технологии указанные в проекте.
