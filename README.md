@@ -199,8 +199,8 @@ Java. Путь от ученика до эксперта.
 [Видео](http://www.youtube.com/watch?v=X5eI5OhRWis)
 
 Дополнительная информация 
-https://maven.apache.org/plugins/maven-jar-plugin/examples/manifest-customization.html
-https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
+- https://maven.apache.org/plugins/maven-jar-plugin/examples/manifest-customization.html
+- https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
 
 Задания
 
@@ -214,8 +214,7 @@ https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
 [Видео](http://www.youtube.com/watch?v=toaYofpHwUg)
 
 Дополнительная информация
-
-ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%20&%20Scientific/Java/Java%20Generics%20and%20Collections/Java%20Generics%20and%20Collections.pdf
+- ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%20&%20Scientific/Java/Java%20Generics%20and%20Collections/Java%20Generics%20and%20Collections.pdf
 
 Задания
 
@@ -228,7 +227,7 @@ ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%
 [Видео](http://www.youtube.com/watch?v=e9U_GBrwtvQ)
 
 Дополнительная информация
-http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf
+- http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf
 
 Задания
 
@@ -245,7 +244,7 @@ http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Дополнительная информация
-https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
+- https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
 
 Задания
 
@@ -256,7 +255,7 @@ https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
 [Видео](http://www.youtube.com/watch?v=6pwM3p2pbic)
 
 Дополнительная информация
-http://docs.oracle.com/javase/tutorial/uiswing/
+- http://docs.oracle.com/javase/tutorial/uiswing/
 
 Задания
 
@@ -267,8 +266,8 @@ http://docs.oracle.com/javase/tutorial/uiswing/
 [Видео](http://www.youtube.com/watch?v=6tg-82cdDWE)
 
 Дополнительная информация
-http://en.wikipedia.org/wiki/Client%E2%80%93server_model
-http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+- http://en.wikipedia.org/wiki/Client%E2%80%93server_model
+- http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 Задания
 
@@ -280,7 +279,7 @@ http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 [Видео](http://www.youtube.com/watch?v=yGeDFoUjmbo)
 
 Дополнительная информация
-http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
+- http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
 
 Задания
 
@@ -291,7 +290,7 @@ http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
 [Видео](http://www.youtube.com/watch?v=CiPhTanChr8)
 
 Дополнительная информация
-https://code.google.com/p/mockito/
+- https://code.google.com/p/mockito/
 
 Задания
 
@@ -303,7 +302,7 @@ https://code.google.com/p/mockito/
 [Видео](http://www.youtube.com/watch?v=UTU-vsDR_tU)
 
 Дополнительная информация
-http://www.w3schools.com/html/
+- http://www.w3schools.com/html/
 
 Задания
 
@@ -316,7 +315,7 @@ http://www.w3schools.com/html/
 [Видео](http://www.youtube.com/watch?v=Pzkv4CYKPDg)
 
 Дополнительная информация
-http://www.postgresqltutorial.com/
+- http://www.postgresqltutorial.com/
 
 Задания
 
@@ -331,7 +330,7 @@ http://www.postgresqltutorial.com/
 [Видео](http://www.youtube.com/watch?v=T60lPwMCq7c)
 
 Дополнительная информация
-http://docs.oracle.com/javase/tutorial/jdbc/
+- http://docs.oracle.com/javase/tutorial/jdbc/
 
 Задания
 
@@ -342,7 +341,7 @@ http://docs.oracle.com/javase/tutorial/jdbc/
 [Видео](http://www.youtube.com/watch?v=_wsN58yk_WE)
 
 Дополнительная информация
-https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
+- https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
 
 Задания
 
@@ -353,7 +352,7 @@ https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration
 [Видео](http://www.youtube.com/watch?v=ZhRt5fwEi0s)
 
 Дополнительная информация
-https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/persistent-classes.html
+- https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/persistent-classes.html
 
 Задания
 
@@ -364,7 +363,7 @@ https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/persistent-classes.ht
 [Видео](http://www.youtube.com/watch?v=2faPicW-xbg)
 
 Дополнительная информация
-https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/collections.html
+- https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/collections.html
 
 Задания
 
@@ -375,7 +374,7 @@ https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/collections.html
 [Видео](http://www.youtube.com/watch?v=m5RPXecCOlo)
 
 Дополнительная информация
-http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html
 
 Задания
 
@@ -386,7 +385,7 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.
 [Видео](http://www.youtube.com/watch?v=XuK0bC3cl_w)
 
 Дополнительная информация
-http://docs.spring.io/spring/docs/current/spring-framework-reference/html/classic-spring.html
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/html/classic-spring.html
 
 Задания
 
@@ -397,7 +396,7 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/classi
 [Видео](http://www.youtube.com/watch?v=gU-oZv8FZ4Q)
 
 Дополнительная информация
-http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
 
 Задания
 
@@ -408,7 +407,7 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.ht
 [Видео](http://www.youtube.com/watch?v=NxSK0pR_Qhc)
 
 Дополнительная информация
-http://projects.spring.io/spring-security/
+- http://projects.spring.io/spring-security/
 
 Задания
 
