@@ -86,7 +86,7 @@ Java. Путь от ученика до эксперта.
 
 Задания
 
-- Какой Вы хотите добиться целью изучения языка Java?
+- Какой Вы хотите добиться цели при изучении языка Java?
 - Как Вы можете проверить что цель достигнута?
 - Какой срок реализации Вашей цели?
 
@@ -112,7 +112,8 @@ Java. Путь от ученика до эксперта.
 
 [Видео](http://www.youtube.com/watch?v=_UM8_vQZ4Tk)
 
-Детальное описание https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+Детальное описание 
+- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
 Задания
 
