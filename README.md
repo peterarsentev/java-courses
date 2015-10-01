@@ -6,8 +6,8 @@ Java. Путь от ученика до эксперта.
 
 Цель курса
 ----------
-Всем привет. Меня зовут Петр. Я - Java разработчик с опытом работы более 6 лет. На своем опыте я знаю, как сложно освоить новый язык или технологию. Когда человек начинает изучать Java, первое, с чем он сталкивается, - это огромное количество технологий, фрейворков и библиотек. Человек теряется, что же ему учить. Создается впечатление, что порог вхождения в Java программисты очень высок. Данным курсом я хочу показать обратное. За пару месяцев интенсивного обучение по курсу вы овладеете достаточными знаниями для устройства на работу, прохождения собеседовании и выполнения требуемых задач на работе.
-Особо хотел бы отметить, что это практический курс, поэтому важную роль играет выполнение всех задании в каждом занятии. Только тогда будет положительный результат.
+Всем привет. Меня зовут Петр. Я - Java-разработчик с опытом работы более 6 лет. На своем опыте я знаю, как сложно освоить новый язык или технологию. Когда человек начинает изучать Java, первое, с чем он сталкивается, - это огромное количество технологий, фреймворков и библиотек. Человек теряется, что же ему учить. Создается впечатление, что порог вхождения в Java-программисты очень высок. Данным курсом я хочу показать обратное. За пару месяцев интенсивного обучения по курсу вы овладеете достаточными знаниями для устройства на работу, прохождения собеседования и выполнения требуемых задач на работе.
+Особо хотел бы отметить, что это практический курс, поэтому важную роль играет выполнение всех заданий в каждом занятии. Только тогда будет положительный результат.
 
 Книга. Java. Путь от ученика до эксперта. Практические задания. Разбор решений. Комментарии.
 --------------------------------------------------------------------------------------------
@@ -18,7 +18,7 @@ Java. Путь от ученика до эксперта.
 
 Стоимость данной книги **690 рублей**. 
 
-Планируемый срок окончания книги август 2015.
+Планируемый срок окончания книги - август 2015.
 Каждый подавший заявку на приобретение книги **до 01.08.2015 получит скидку в размере 50%**.
 
 **Заявку на приобретение книги отправляйте мне на почту parsentev@yandex.ru.**
@@ -74,7 +74,7 @@ Java. Путь от ученика до эксперта.
 - Базовый синтаксис SQL
 - Использование POJO в работе с базами. ORM.
 - Hibernate, Mapping
-- Hibernate, CrUD
+- Hibernate, CRUD
 - HQL
 - Spring IoC
 - Spring Template + Hibernate
@@ -86,7 +86,7 @@ Java. Путь от ученика до эксперта.
 
 Задания
 
-- Какой Вы хотите добиться целью изучения языка Java?
+- Какой Вы хотите добиться цели при изучении языка Java?
 - Как Вы можете проверить что цель достигнута?
 - Какой срок реализации Вашей цели?
 
@@ -112,7 +112,8 @@ Java. Путь от ученика до эксперта.
 
 [Видео](http://www.youtube.com/watch?v=_UM8_vQZ4Tk)
 
-Детальное описание https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+Детальное описание 
+- https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 
 Задания
 
@@ -179,7 +180,7 @@ Java. Путь от ученика до эксперта.
 
 Задания
 
-- Добавить maven для проекта Клиника. Калькулятор.
+- Добавить Мaven для проекта Клиника. Калькулятор.
 - Добавить тесты в эти проекты.
 
 Занятие 8. Исключительные ситуации. Exception, Error
@@ -199,11 +200,12 @@ Java. Путь от ученика до эксперта.
 [Видео](http://www.youtube.com/watch?v=X5eI5OhRWis)
 
 Дополнительная информация 
-https://maven.apache.org/plugins/maven-jar-plugin/examples/manifest-customization.html
-https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
+- https://maven.apache.org/plugins/maven-jar-plugin/examples/manifest-customization.html
+- https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
+
 Задания
 
-- Сделать программу клиники исполняемой. 
+- Сделать программу Клиника исполняемой. 
 - Добавить файл README.md и описать в нем назначение программы, возможности.
 - Попросить своих друзей попробовать использовать программу.
 - Получить впечатление, отзывы от друзей. Провести работу по исправлению.
@@ -212,21 +214,21 @@ https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html
 --------------------------
 [Видео](http://www.youtube.com/watch?v=toaYofpHwUg)
 
-дополнительная информация
-ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%20&%20Scientific/Java/Java%20Generics%20and%20Collections/Java%20Generics%20and%20Collections.pdf
+Дополнительная информация
+- ftp://ftp.fixme.ch/free_for_all/Ebook/IT%20eBooks/Software%20Engineering/System%20&%20Scientific/Java/Java%20Generics%20and%20Collections/Java%20Generics%20and%20Collections.pdf
 
 Задания
 
 1. Создать свою реализацию коллекций ArrayList - на базе массива.
 2. Создать свою реализацию LinkedList - на базе связанных списков.
-3. Заменить массивы в проекте клиника на вашу реализацию.
+3. Заменить массивы в проекте Клиника на вашу реализацию.
 
 Занятие 11. Коллекции. Equals. hashCode
 --------------------------
 [Видео](http://www.youtube.com/watch?v=e9U_GBrwtvQ)
 
 Дополнительная информация
-http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf
+- http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf
 
 Задания
 
@@ -236,25 +238,25 @@ http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.
 - Перекрыть только equals
 - Перекрыть только hashCode
 - Не перекрывать
-- Объяснить результаты работы коллекций. Метолов contains, add, size, put
+- Объяснить результаты работы коллекций. Методов contains, add, size, put
 
 Занятие 12. Многопоточность
 --------------------------
 [Видео](http://www.youtube.com/watch?v=rlajofdMnhw)
 
 Дополнительная информация
-https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
+- https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
 
 Задания
 
-- Реализовать эмуляцию клиентов и администратора в проекте клиника для домашних питомцев.
+- Реализовать эмуляцию клиентов и администратора в проекте Клиника для домашних питомцев.
 
 Занятие 13. GUI. Игра сапер.
 --------------------------
 [Видео](http://www.youtube.com/watch?v=6pwM3p2pbic)
 
 Дополнительная информация
-http://docs.oracle.com/javase/tutorial/uiswing/
+- http://docs.oracle.com/javase/tutorial/uiswing/
 
 Задания
 
@@ -265,8 +267,8 @@ http://docs.oracle.com/javase/tutorial/uiswing/
 [Видео](http://www.youtube.com/watch?v=6tg-82cdDWE)
 
 Дополнительная информация
-http://en.wikipedia.org/wiki/Client%E2%80%93server_model
-http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+- http://en.wikipedia.org/wiki/Client%E2%80%93server_model
+- http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 Задания
 
@@ -278,18 +280,18 @@ http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 [Видео](http://www.youtube.com/watch?v=yGeDFoUjmbo)
 
 Дополнительная информация
-http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
+- http://www.oracle.com/technetwork/articles/java/servlets-jsp-140445.html
 
 Задания
 
-- Реализовать проект клинику домашних животных в Web приложение
+- Реализовать проект Клиника домашних животных в Web приложение
 
 Занятие 16. Тестирование Servlet. Mockito
 -----------------------------------------
 [Видео](http://www.youtube.com/watch?v=CiPhTanChr8)
 
 Дополнительная информация
-https://code.google.com/p/mockito/
+- https://code.google.com/p/mockito/
 
 Задания
 
@@ -301,7 +303,7 @@ https://code.google.com/p/mockito/
 [Видео](http://www.youtube.com/watch?v=UTU-vsDR_tU)
 
 Дополнительная информация
-http://www.w3schools.com/html/
+- http://www.w3schools.com/html/
 
 Задания
 
@@ -314,7 +316,7 @@ http://www.w3schools.com/html/
 [Видео](http://www.youtube.com/watch?v=Pzkv4CYKPDg)
 
 Дополнительная информация
-http://www.postgresqltutorial.com/
+- http://www.postgresqltutorial.com/
 
 Задания
 
@@ -329,7 +331,7 @@ http://www.postgresqltutorial.com/
 [Видео](http://www.youtube.com/watch?v=T60lPwMCq7c)
 
 Дополнительная информация
-http://docs.oracle.com/javase/tutorial/jdbc/
+- http://docs.oracle.com/javase/tutorial/jdbc/
 
 Задания
 
@@ -340,7 +342,7 @@ http://docs.oracle.com/javase/tutorial/jdbc/
 [Видео](http://www.youtube.com/watch?v=_wsN58yk_WE)
 
 Дополнительная информация
-https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
+- https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
 
 Задания
 
@@ -351,7 +353,7 @@ https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration
 [Видео](http://www.youtube.com/watch?v=ZhRt5fwEi0s)
 
 Дополнительная информация
-https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/persistent-classes.html
+- https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/persistent-classes.html
 
 Задания
 
@@ -362,7 +364,7 @@ https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/persistent-classes.ht
 [Видео](http://www.youtube.com/watch?v=2faPicW-xbg)
 
 Дополнительная информация
-https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/collections.html
+- https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/collections.html
 
 Задания
 
@@ -373,7 +375,7 @@ https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/collections.html
 [Видео](http://www.youtube.com/watch?v=m5RPXecCOlo)
 
 Дополнительная информация
-http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html
 
 Задания
 
@@ -384,7 +386,7 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.
 [Видео](http://www.youtube.com/watch?v=XuK0bC3cl_w)
 
 Дополнительная информация
-http://docs.spring.io/spring/docs/current/spring-framework-reference/html/classic-spring.html
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/html/classic-spring.html
 
 Задания
 
@@ -395,7 +397,7 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/classi
 [Видео](http://www.youtube.com/watch?v=gU-oZv8FZ4Q)
 
 Дополнительная информация
-http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
 
 Задания
 
@@ -406,7 +408,7 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.ht
 [Видео](http://www.youtube.com/watch?v=NxSK0pR_Qhc)
 
 Дополнительная информация
-http://projects.spring.io/spring-security/
+- http://projects.spring.io/spring-security/
 
 Задания
 
@@ -419,4 +421,4 @@ http://projects.spring.io/spring-security/
 
 Задания
 
-- Создать проект клиника использую все технологии указанные в проекте.
+- Создать проект Клиника, используя все технологии указанные в проекте.
