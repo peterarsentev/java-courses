@@ -24,16 +24,7 @@ public class InteractCalculator {
 			String first = input.ask("Enter first arg : ");
 			String operation = input.ask("Enter operation : ");
 			String second = input.ask("Enter second arg : ");
-			try {
-				if ("+".equals(operation)) {
-					calculator.add(Integer.valueOf(first), Integer.valueOf(second));
-				} else if ("/".equals(operation)) {
-					calculator.div(Integer.valueOf(first), Integer.valueOf(second));
-				}
-			} catch (UserException e) {
-				output.println(e.getMessage());
-				output.println("Please enter two args.");
-			}
+			this.calculator.calculate(Integer.valueOf(first), Integer.valueOf(second), operation);
 			output.println(String.format("Result : %s", calculator.getResult()));
 			if ("yes".equals(input.ask("Do you want to clean the result?"))) {
 				calculator.cleanResult();

@@ -1,6 +1,10 @@
 package ru.lessons.lesson_4;
 
+import ru.lessons.lesson_28.Action;
 import ru.lessons.lesson_8.UserException;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Класс реализует калькулятор.
@@ -10,6 +14,48 @@ public class Calculator {
 	 Результат вычисления.
 	 */
 	private int result;
+
+	private final Map<String, Action> operation = new HashMap<String, Action>();
+
+	public Calculator() {
+		this.load(new Add());
+		this.load(new Div());
+	}
+
+	public void load(Action action) {
+		this.operation.put(action.operation(), action);
+	}
+
+	public void calculate(int first, int second, String operation) {
+		this.result = this.operation.get(operation).arithmetical(first, second);
+	}
+
+
+	public static final class Add implements Action {
+
+		public String operation() {
+			return "+";
+		}
+
+		public int arithmetical(int first, int second) {
+			return first + second;
+		}
+	}
+
+	public static final class Div implements Action {
+
+		public String operation() {
+			return "/";
+		}
+
+		public int arithmetical(int first, int second) {
+			if (second != 0) {
+				return first / second;
+			} else {
+				throw new ArithmeticException();
+			}
+		}
+	}
 
 	/**
 	 * Суммируем аргументы.
