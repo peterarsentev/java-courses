@@ -20,27 +20,24 @@ public class InteractCalculator {
 	}
 
 	public void action() {
-		try {
-			String exit = "no";
-			while (!exit.equals("yes")) {
-				output.println("Enter first arg : ");
-				String first = input.next();
-				output.println("Enter second arg : ");
-				String second = input.next();
-				try {
+		do {
+			String first = input.ask("Enter first arg : ");
+			String operation = input.ask("Enter operation : ");
+			String second = input.ask("Enter second arg : ");
+			try {
+				if ("+".equals(operation)) {
+					calculator.add(Integer.valueOf(first), Integer.valueOf(second));
+				} else if ("/".equals(operation)) {
 					calculator.div(Integer.valueOf(first), Integer.valueOf(second));
-				} catch (UserException e) {
-					output.println(e.getMessage());
-					output.println("Please enter two args.");
 				}
-
-				output.println("Result : " + calculator.getResult());
-				calculator.cleanResult();
-				output.println("Exit : yes/no ");
-				exit = input.next();
+			} catch (UserException e) {
+				output.println(e.getMessage());
+				output.println("Please enter two args.");
 			}
-		} finally {
-			input.close();
-		}
+			output.println(String.format("Result : %s", calculator.getResult()));
+			if ("yes".equals(input.ask("Do you want to clean the result?"))) {
+				calculator.cleanResult();
+			}
+		} while ("no".equals(input.ask("Exit : yes/no ")));
 	}
 }
