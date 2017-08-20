@@ -244,7 +244,7 @@ Java. Путь от ученика до эксперта.
 
 Занятие 13. GUI. Игра сапер.
 --------------------------
-[Видео](http://www.youtube.com/watch?v=6pwM3p2pbic)
+[Видео](https://www.youtube.com/watch?v=WU6r2gpWYsc)
 
 Дополнительная информация
 - http://docs.oracle.com/javase/tutorial/uiswing/
